@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #111111;
+  font-size: 16px;
+  animation: fadeIn 1.5s;
+}
+
+header,
+section {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1100px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-top: 30px;
+  animation: slideDown 0.75s;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #111111;
+}
+
+h2 {
+  max-width: 700px;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 60px;
+  padding-bottom: 25px;
+  animation: slideRight 0.75s;
+}
+
+h2 strong {
+  font-weight: 400;
+}
+
+p {
+  font-size: 20px;
+}
+
+header p {
+  max-width: 700px;
+  line-height: 1.25em;
+  padding-bottom: 75px;
+  animation: slideRight 1s;
+}
+
+header p a {
+  color: #0f4bf1;
+  text-decoration: none;
+  border-bottom: #0f4bf1 1px dotted;
+}
+
+.home {
+  background-image: url("/images/lachlan.png");
+  background-position: right;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+header p a:hover,
+.personal-projects a:hover,
+.marketing-and-design a:hover {
+  color: #003296;
+  border-bottom: #003296 1px solid;
+}
+
+.return-to-home {
+  animation: slideUp 0.75s;
+}
+
+.return-to-home a {
+  margin-top: 300px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #0f4bf1;
+  text-decoration: none;
+  border-bottom: #0f4bf1 1px dotted;
+}
+
+.return-to-home a:hover {
+  color: #003296;
+  border-bottom: #003296 1px solid;
+}
+
+section h3 {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1.75px;
+}
+
+.personal-projects {
+  padding-bottom: 75px;
+  animation: slideUp 1.25s;
+}
+
+.personal-projects div {
+  padding-top: 25px;
+  max-height: 200px;
+  max-width: 50%;
+  display: inline-block;
+  float: left;
+}
+
+.personal-projects div:nth-last-of-type(odd) p {
+  margin: 0;
+}
+
+.personal-projects div:last-of-type {
+  float: none;
+}
+
+.personal-projects a {
+  font-weight: 500;
+  font-size: 24px;
+  color: #0f4bf1;
+  text-decoration: none;
+  border-bottom: #0f4bf1 1px dotted;
+}
+
+.personal-projects div p {
+  line-height: 1.25em;
+  padding-top: 15px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+  .personal-projects div {
+    padding-top: 25px;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .personal-projects div p {
+    margin-right: 0;
+  }
+
+  .home {
+    background: 0;
+  }
+}
+
+.marketing-and-design {
+  padding-bottom: 110px;
+  animation: slideUp 1.5s;
+}
+
+.marketing-and-design p {
+  line-height: 1.25em;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.marketing-and-design a {
+  font-size: 20px;
+  font-weight: 500;
+  color: #0f4bf1;
+  text-decoration: none;
+  border-bottom: #0f4bf1 1px dotted;
+}
+
+footer {
+  background-color: #111111;
+}
+
+footer div {
+  height: 75px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1100px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+footer .linkedin-logo img {
+  height: 20px;
+  float: left;
+  margin-top: 27.5px;
+}
+
+footer .get-in-touch {
+  font-size: 20px;
+  float: right;
+  margin-top: 22.5px;
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: #ffffff 1px dotted;
+}
+
+footer a:hover {
+  border-bottom: #ffffff 1px solid;
+}
+
+#work {
+  background: #111111;
+  background: linear-gradient(
+    180deg,
+    rgba(17, 17, 17, 1) 85%,
+    rgba(0, 0, 25, 1) 100%
+  );
+}
+
+#work header h1 a,
+#work header p,
+.timeline h3,
+.timeline h4,
+.timeline h5,
+.timeline h6,
+.timeline p {
+  color: #ffffff;
+}
+
+#work header p {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.introduction {
+  max-width: 100%;
+}
+
+.timeline {
+  animation: slideUp 1.25s;
+}
+
+.timeline article {
+  border-left: 1px solid #0f4bf1;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.timeline article:first-of-type {
+  padding-top: 0;
+}
+
+.timeline h3 {
+  transform: translate(-20.5px, 0);
+}
+
+.timeline h3:before {
+  content: "";
+  display: inline-block;
+  width: 12.5px;
+  height: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background: #0f4bf1;
+}
+
+.timeline h4 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 100%;
+  padding-top: 10px;
+}
+
+.timeline h5 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 5px;
+}
+
+.timeline h6 {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 100%;
+  padding: 150px 0 200px 0;
+  text-align: center;
+}
+
+.timeline p {
+  padding-top: 25px;
+}
+
+.timeline article p {
+  padding-bottom: 25px;
+}
+
+.timeline img {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  pointer-events: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translate(0, 25px);
+  }
+
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes slideRight {
+  from {
+    transform: translate(-25px, 0);
+  }
+
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translate(0, -25px);
+  }
+
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes drawDown {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
