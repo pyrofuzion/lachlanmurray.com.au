@@ -68,6 +68,12 @@ header p a {
   background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 1000px) {
+  .home {
+    background: 0;
+  }
+}
+
 header p a:hover,
 .personal-projects a:hover,
 .marketing-and-design a:hover {
@@ -143,10 +149,6 @@ section h3 {
 
   .personal-projects div p {
     margin-right: 0;
-  }
-
-  .home {
-    background: 0;
   }
 }
 
