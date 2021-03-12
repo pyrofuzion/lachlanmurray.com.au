@@ -68,7 +68,7 @@ header p a {
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   .home {
     background: 0;
   }
