@@ -358,7 +358,8 @@ footer a:hover {
     font-size: 20px;
   }
 
-  .marketing-and-design a {
+  .marketing-and-design a,
+  .return-to-home a {
     font-size: 18px;
   }
 
