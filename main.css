@@ -291,7 +291,6 @@ footer a:hover {
 .timeline img {
   width: 100%;
   height: auto;
-  object-fit: cover;
   margin-bottom: 15px;
   background: #ffffff;
   pointer-events: none;
