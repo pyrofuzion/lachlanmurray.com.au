@@ -190,7 +190,7 @@ footer .linkedin-logo img {
   margin-top: 27.5px;
 }
 
-footer .get-in-touch {
+footer .email {
   font-size: 20px;
   float: right;
   margin-top: 22.5px;
@@ -245,9 +245,22 @@ footer a:hover {
   padding-top: 0;
 }
 
-.timeline article:last-of-type {
-  padding: 200px 0 200px 0;
+.timeline p {
+  padding-top: 25px;
 }
+
+.timeline article p {
+  padding-bottom: 25px;
+}
+
+.timeline img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  background: #ffffff;
+  pointer-events: none;
+}
+
 
 .timeline h3 {
   transform: translate(-20.5px, 0);
@@ -283,24 +296,23 @@ footer a:hover {
   text-align: center;
 }
 
+.timeline article:last-of-type {
+  padding: 200px 0 200px 0;
+}
+
 .timeline :last-of-type p {
   text-align: center;
+  padding: 10px 0 0 0;
 }
 
-.timeline p {
-  padding-top: 25px;
+.timeline a.email {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: #ffffff 1px dotted;
 }
 
-.timeline article p {
-  padding-bottom: 25px;
-}
-
-.timeline img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 15px;
-  background: #ffffff;
-  pointer-events: none;
+.timeline a.email:hover {
+  border-bottom: #ffffff 1px solid;
 }
 
 @keyframes fadeIn {
