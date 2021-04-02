@@ -245,6 +245,10 @@ footer a:hover {
   padding-top: 0;
 }
 
+.timeline article:last-of-type {
+  padding: 200px 0 200px 0;
+}
+
 .timeline h3 {
   transform: translate(-20.5px, 0);
 }
@@ -276,7 +280,10 @@ footer a:hover {
   font-size: 32px;
   font-weight: 300;
   line-height: 100%;
-  padding: 150px 0 200px 0;
+  text-align: center;
+}
+
+.timeline :last-of-type p {
   text-align: center;
 }
 
