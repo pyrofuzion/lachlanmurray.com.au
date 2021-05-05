@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -203,6 +204,79 @@ footer a:hover {
   border-bottom: #ffffff 1px solid;
 }
 
+#project-page header {
+  display: flex;
+}
+
+#project-page img {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.project-home {
+  animation: none;
+  padding-bottom: 125px;
+}
+
+.giga-title {
+  animation: none;
+  padding: 30px 0 30px 0;
+  max-width: 550px;
+  font-size: 80px;
+  font-weight: bolder;
+  line-height: 80px;
+}
+
+.project-description {
+  animation: none;
+  font-size: 20px;
+  max-width: 600px;
+  padding-bottom: 50px;
+}
+
+.learn-more {
+  text-decoration: none;;
+  color: white;
+  padding: 10px 24px;
+  background-color: #4300FF;
+  border-radius: 20px;
+}
+.project-mockup img {
+  max-width: 715px;
+  position: absolute;
+  padding-top: 110px;
+  padding-left: -25px;
+}
+
+.project-features {
+  margin-top: 215px;
+}
+
+.project-features h3 {
+  padding-top: 50px;
+  color: #4300FF;
+  padding-bottom: 10px;
+}
+
+.project-features h4 {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 60px;
+  padding-bottom: 20px;
+}
+
+.project-features img {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 75px;
+  pointer-events: none;
+}
+
 #work {
   background: #111111;
   background: linear-gradient(
@@ -382,6 +456,11 @@ footer a:hover {
   .marketing-and-design a,
   .return-to-home a {
     font-size: 18px;
+  }
+
+  .project-features h4 {
+    font-size: 40px;
+    line-height: 40px;
   }
 
   .timeline h4 {
