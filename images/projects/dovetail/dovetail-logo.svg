@@ -9,7 +9,7 @@
     <g id="Logo" clip-path="url(#clip-path)">
       <g id="Logo-2" data-name="Logo" transform="translate(411 202)">
         <g id="Shapes">
-          <rect id="Rectangle_1" data-name="Rectangle 1" width="50" height="21.5" transform="translate(0 28.5)" fill="#4300ff"/>
+          <rect id="Rectangle_1" data-name="Rectangle 1" width="50" height="21.25" transform="translate(0 28.75)" fill="#4300ff"/>
           <g id="Group_1" data-name="Group 1">
             <path id="Path_1" data-name="Path 1" d="M73.21,15.56,25.16,43.3V32.2l9.61-5.55V15.56l-9.61,5.545V10.01l9.61-5.55V-6.635l-9.61,5.55v-11.3L73.21-39.925" fill="#fff"/>
             <path id="Path_2" data-name="Path 2" d="M34.77-6.635V4.46l-9.61,5.55v-11.1Z" fill="#7d4bff"/>
