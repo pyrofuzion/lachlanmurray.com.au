@@ -292,12 +292,19 @@ footer a:hover {
   }
 
   .project-home {
-    padding-bottom: 75px;
+    padding-bottom: 60px;
   }
 
   .project-title {
-    font-size: 45px;
-    line-height: 45px;
+    font-size: 65px;
+    line-height: 65px;
+    max-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .project-description {
+    max-width: 100%;
   }
 
   .project-mockup img {
@@ -513,13 +520,18 @@ footer a:hover {
     max-width: 50%;
   }
 
+  .project-title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
   p.project-description {
     font-size: 16px;
   }
 
   .project-features h4 {
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 30px;
   }
 
   .timeline h4 {
