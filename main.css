@@ -282,6 +282,52 @@ footer a:hover {
   pointer-events: none;
 }
 
+.project-features article:last-of-type img {
+  padding-bottom: 125px;
+}
+
+@media screen and (max-width: 850px) {
+  #project-page header {
+    display: block;
+  }
+
+  .project-home {
+    padding-bottom: 75px;
+  }
+
+  .project-title {
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  .project-mockup img {
+    width: 100%;
+    height: auto;
+    position: inherit;
+    padding-top: 0px;
+  }
+
+  .learn-more {
+    display: none;
+  }
+
+  p.project-description {
+    padding-bottom: 25px;
+  }
+
+  .project-features {
+    margin-top: 0;
+  }
+
+  .project-features img {
+    padding-bottom: 0;
+  }
+
+  .project-features article:last-of-type img {
+    padding-bottom: 35px;
+  }
+}
+
 #work {
   background: #111111;
   background: linear-gradient(
