@@ -255,7 +255,7 @@ footer a:hover {
   border-radius: 20px;
 }
 
-.project-mockup img {
+.project-hero img {
   width: 700px;
   position: absolute;
   padding-top: 135px;
@@ -310,7 +310,7 @@ footer a:hover {
     max-width: 100%;
   }
 
-  .project-mockup img {
+  .project-hero img {
     width: 100%;
     height: auto;
     position: inherit;
