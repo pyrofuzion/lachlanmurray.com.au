@@ -245,14 +245,19 @@ footer a:hover {
   animation: none;
   font-size: 20px;
   max-width: 600px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 .learn-more {
-  text-decoration: none;;
-  color: white;
+  text-decoration: none;
   padding: 10px 24px;
   border-radius: 20px;
+  transition: 0.25s;
+}
+
+.learn-more:hover {
+  color: white;
+  box-shadow: 0 0 0 0;
 }
 
 .project-hero img {
