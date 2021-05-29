@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="12.162" height="14" viewBox="0 0 12.162 14">
-  <g id="down-arrow" transform="translate(1.061 0.75)">
-    <path id="Body" d="M.5,12.5V0" transform="translate(4.521)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
-    <path id="Arrow" d="M10.041,0,5.021,5.042,0,0" transform="translate(0 7.458)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
-  </g>
-</svg>
