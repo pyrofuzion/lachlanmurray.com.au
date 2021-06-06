@@ -5,7 +5,7 @@
     </clipPath>
   </defs>
   <g id="dovetail-onboarding" clip-path="url(#clip-dovetail-onboarding)">
-    <rect id="Background" width="900" height="954" rx="15" fill="#ededef"/>
+    <rect id="Background" width="900" height="954" rx="12" fill="#ededef"/>
     <g id="Code" transform="translate(40 40)">
       <rect id="Card" width="390" height="338" rx="20" fill="#fff"/>
       <g id="Heading">
