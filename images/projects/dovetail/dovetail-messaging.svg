@@ -292,7 +292,7 @@
     </clipPath>
   </defs>
   <g id="dovetail-messaging" clip-path="url(#clip-dovetail-messaging)">
-    <rect id="Background" width="900" height="896" rx="15" fill="#ededef"/>
+    <rect id="Background" width="900" height="896" rx="12" fill="#ededef"/>
     <g id="Group_chat" data-name="Group chat">
       <path id="Card-3" data-name="Card" d="M20,0H370a20,20,0,0,1,20,20V477a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" transform="translate(40 40)" fill="#fff"/>
       <g id="Keyboard" transform="translate(40 517)">
