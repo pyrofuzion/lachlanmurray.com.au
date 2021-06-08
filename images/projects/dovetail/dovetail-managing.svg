@@ -62,7 +62,7 @@
     </clipPath>
   </defs>
   <g id="dovetail-managing" clip-path="url(#clip-dovetail-managing)">
-    <rect id="Background" width="900" height="626.7" rx="12" fill="#ededef"/>
+    <rect id="Background" width="900" height="626.7" rx="15" fill="#ededef"/>
     <g id="Dashboard" clip-path="url(#clip-path)">
       <g id="Dashboard-2" data-name="Dashboard" transform="translate(40.005 40)">
         <path id="Background-2" data-name="Background" d="M0,0H819.99V538.118a8.542,8.542,0,0,1-8.542,8.542H8.542A8.542,8.542,0,0,1,0,538.118Z" fill="#fbfbff"/>

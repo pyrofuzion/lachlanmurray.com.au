@@ -36,7 +36,7 @@
     </clipPath>
   </defs>
   <g id="dovetail-booking" clip-path="url(#clip-dovetail-booking)">
-    <rect id="Background" width="900" height="1563" rx="12" fill="#ededef"/>
+    <rect id="Background" width="900" height="1563" rx="15" fill="#ededef"/>
     <g id="Space">
       <rect id="Card-5" data-name="Card" width="390" height="1463" rx="20" transform="translate(40 40)" fill="#fff"/>
       <path id="Photo" d="M20,0H370a20,20,0,0,1,20,20V220a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" transform="translate(40 40)" opacity="0.85" fill="url(#pattern)"/>
