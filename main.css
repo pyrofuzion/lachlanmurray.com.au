@@ -284,7 +284,6 @@ footer a:hover {
   height: auto;
   padding-top: 20px;
   padding-bottom: 75px;
-  pointer-events: none;
 }
 
 .project-features article:last-of-type img {
