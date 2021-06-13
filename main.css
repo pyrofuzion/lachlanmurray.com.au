@@ -234,6 +234,7 @@ footer a:hover {
   max-width: 550px;
   font-size: 80px;
   font-weight: 600;
+  letter-spacing: -1px;
   line-height: 80px;
 }
 
