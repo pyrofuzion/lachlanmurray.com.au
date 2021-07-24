@@ -81,7 +81,7 @@ header p a {
 
 header p a:hover,
 .personal-projects a:hover,
-.marketing-and-design a:hover {
+.design-and-marketing a:hover {
   color: #003296;
   border-bottom: #003296 1px solid;
 }
@@ -157,18 +157,18 @@ section h3 {
   }
 }
 
-.marketing-and-design {
+.design-and-marketing {
   padding-bottom: 110px;
   animation: slideUp 1.5s;
 }
 
-.marketing-and-design p {
+.design-and-marketing p {
   line-height: 1.25em;
   padding-top: 25px;
   padding-bottom: 15px;
 }
 
-.marketing-and-design a {
+.design-and-marketing a {
   font-size: 20px;
   font-weight: 500;
   color: #0f4bf1;
@@ -519,7 +519,7 @@ footer a:hover {
     font-size: 20px;
   }
 
-  .marketing-and-design a,
+  .design-and-marketing a,
   .return-to-home a {
     font-size: 18px;
   }
